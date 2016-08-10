@@ -1,32 +1,9 @@
 body {
   margin: 0;
+  padding: 0;
 }
-html, body, .container, .left-column, .right-column {
-  height: 100%;
-}
-.container {
-  margin: 0;
-}
-.left-column {
-  font-size: 30px;
-  font-weight: bold;
-  color: #142678;
-  width: 350px;
-  float: left;
-  text-align: center;
-  background: #dddddd; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, white, #dddddd); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, white, #dddddd); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, white, #dddddd); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, white, #dddddd); /* Standard syntax */
-}
-.left-bottom {
+#button_image {
   position: absolute;
-  bottom: 0px;
-  width: 350px;
-}
-.right-column {
-  font-size: 20px;
-  float: left;
-  text-align: center;
+  top: 900px;
+  left: 100px;
 }
