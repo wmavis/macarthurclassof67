@@ -1,9 +1,19 @@
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
+#container {
+  position: relative;
+}
+#background_image {
+  width: 100%;
+}
+#register_image {
+  width: 100%;
+}
 #button_image {
   position: absolute;
-  top: 900px;
-  left: 100px;
+  width: 13%;
+  left: 7%;
+  top: 75%;
 }
