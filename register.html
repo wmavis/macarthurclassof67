@@ -7,10 +7,48 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      var forms;
+      function dataSubmitted() {
+        console.log($('#message')[0]);
+        $('#message')[0].innerHTML = 'Your information has been submitted';
+      }
+      $(document).ready(function() {
+        forms = $('form');
+        forms.submit(function(event) {
+          $.ajax({
+            type        : forms[0].method,
+            url         : forms[0].action,
+            data        : forms.serialize(),
+            dataType    : 'jsonp',
+            encode      : true,
+            success     : dataSubmitted,
+            error       : dataSubmitted
+          });
+          event.preventDefault();
+        });
+      });
+    </script>
+
     <title>MacArthur High School Class Of 1967</title>
   </head>
 
   <body>
-    <img id="register_image" src="images/register.jpg" />
+    <div id="container">
+      <img id="register_image" src="images/register.jpg" />
+
+      <h1>Register Here:</h1>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSdzOORJmbpfOB_xRvQnROV76CZ5Kst4Opc96FCXeFX_DjTPXA/formResponse?embedded=true" target="_self" method="POST" id="mG61Hd">
+        <label>Name (Include maiden name):</label>
+        <span><input type="text" id="name" name="entry.1432820013" /></span>
+        <label>Mailing Address:</label>
+        <span><input type="text" id="mailing_address" name="entry.1525595923" /></span>
+        <label>Email Address:</label>
+        <span><input type="text" id="email_address" name="entry.614876187" /></span>
+        <div id="message"></div>
+        <input id="submit" type="submit">
+      </form>
+    </div>
   </body>
 </html>
