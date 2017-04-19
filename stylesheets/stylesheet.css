@@ -47,6 +47,9 @@ span
   overflow: hidden;
   padding: 0 5px
 }
+span.radio-span {
+  text-align: left;
+}
 div.cb {
   clear: both;
 }
