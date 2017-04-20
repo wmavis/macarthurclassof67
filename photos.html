@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="MacArthur High School Class of 1967">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      var anchors;
+      $(document).ready(function() {
+        anchors = $('a');
+        anchors.click(function(event) {
+          var div = $('.main-photo')[0];
+          div.style.backgroundImage = "url('images/photos/" + event.target.getAttribute('full') + "')";
+          div.style.backgroundSize = 'cover';
+          event.preventDefault();
+        });
+      });
+    </script>
+
+    <title>MacArthur High School Class Of 1967</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <img id="background_image" src="images/photos/background.jpg" />
+      <div class="main-photo">&nbsp;</div>
+      <a href="#" full="1987.jpg" class="thumbnail" style="left: 3%"></a>
+      <a href="#" full="1992.jpg" class="thumbnail" style="left: 26.7%"></a>
+      <a href="#" full="1997.jpg" class="thumbnail" style="left: 50.5%"></a>
+      <a href="#" full="2007.jpg" class="thumbnail" style="left: 74%"></a>
+    </div>
+  </body>
+</html>
