@@ -61,13 +61,4 @@ a.thumbnail {
   top: 67%;
   width: 23%;
   height: 14%;
-  border: 1px solid white;
-}
-div.main-photo {
-  position: absolute;
-  left: 7%;
-  top: 9%;
-  width: 85%;
-  height: 49%;
-  border: 1px solid white;
 }
