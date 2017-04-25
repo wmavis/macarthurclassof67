@@ -58,9 +58,24 @@ div.cb {
 }
 a.thumbnail {
   position: absolute;
-  top: 67%;
-  width: 23%;
-  height: 14%;
+  width: 36%;
+  height: 20%;
+}
+#thumbnail_20th {
+  left: 24%;
+  top: 45%;
+}
+#thumbnail_25th {
+  left: 62%;
+  top: 45%;
+}
+#thumbnail_30th {
+  left: 24%;
+  top: 72%;
+}
+#thumbnail_40th {
+  left: 62%;
+  top: 72%;
 }
 #rsvp_name, #rsvp_mailing_address, #rsvp_email_address, #rsvp_cell_phone {
   position: absolute;
