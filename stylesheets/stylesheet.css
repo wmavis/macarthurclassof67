@@ -62,3 +62,64 @@ a.thumbnail {
   width: 23%;
   height: 14%;
 }
+#rsvp_name, #rsvp_mailing_address, #rsvp_email_address, #rsvp_cell_phone {
+  position: absolute;
+  left: 35.2%;
+  width: 52.7%;
+  height: 3.3%;
+}
+#rsvp_name {
+  top: 19.1%;
+}
+#rsvp_mailing_address {
+  top: 26.2%;
+}
+#rsvp_email_address {
+  top: 33.4%;
+}
+#rsvp_cell_phone {
+  top: 40.6%;
+}
+#rsvp_attending_yes, #rsvp_golf_yes, #rsvp_address_book_yes {
+  position: absolute;
+  left: 35.9%;
+}
+#rsvp_attending_no, #rsvp_golf_no, #rsvp_address_book_no {
+  position: absolute;
+  left: 43.8%;
+}
+#rsvp_attending_yes, #rsvp_attending_no {
+  top: 48.8%;
+}
+#rsvp_golf_yes, #rsvp_golf_no {
+  top: 56%;
+}
+#rsvp_handicap {
+  position: absolute;
+  top: 62%;
+  left: 35.2%;
+  height: 3.3%;
+  width: 10.3%;
+}
+#rsvp_address_book_yes, #rsvp_address_book_no {
+  top: 70.2%;
+}
+#rsvp_message {
+  position: absolute;
+  left: 15%;
+  top: 74%;
+  width: 30%;
+  color: white;
+}
+#rsvp_submit {
+  position: absolute;
+  left: 27%;
+  top: 77%;
+  width: 5%;
+}
+#rsvp_submit_div {
+  position: absolute;
+  left: 27.7%;
+  top: 85%;
+  color: white;
+}
