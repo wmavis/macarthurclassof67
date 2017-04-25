@@ -138,3 +138,10 @@ a.thumbnail {
   top: 85%;
   color: white;
 }
+#rsvp_link {
+  position: absolute;
+  left: 93.5%;
+  top: 92.5%;
+  width: 2.8%;
+  height: 4%;
+}
