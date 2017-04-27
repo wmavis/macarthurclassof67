@@ -61,6 +61,12 @@ a.thumbnail {
   width: 36%;
   height: 20%;
 }
+#thumbnail_tt {
+  left: 2%;
+  top: 3%;
+  width: 61%;
+  height: 33%;
+}
 #thumbnail_20th {
   left: 24%;
   top: 45%;
@@ -129,19 +135,26 @@ a.thumbnail {
 #rsvp_submit {
   position: absolute;
   left: 27%;
-  top: 77%;
+  top: 84%;
   width: 5%;
 }
 #rsvp_submit_div {
   position: absolute;
   left: 27.7%;
-  top: 85%;
+  top: 92%;
   color: white;
 }
 #rsvp_link {
   position: absolute;
   left: 93.5%;
   top: 92.5%;
+  width: 2.8%;
+  height: 4%;
+}
+#photos_link {
+  position: absolute;
+  left: 94.5%;
+  top: 91.5%;
   width: 2.8%;
   height: 4%;
 }
