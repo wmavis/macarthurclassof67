@@ -30,28 +30,38 @@
       });
     </script>
 
+    <style>
+      .radio_buttons {
+	display: block;
+	position: relative;
+	left: 1000px;
+        width: 30px;
+        height: 30px;
+      },
+      #rsvp_submit {
+	position: absolute;
+	left: 100px;
+      }
+    </style>
     <title>MacArthur High School Class Of 1967</title>
   </head>
 
   <body>
     <div id="container">
       <img id="background_image" src="images/rsvp_background_2022.jpg" />
-      <form style="position: absolute; margin: 0; top: 0; left: 0; width: 100%; height: 100%" action="https://docs.google.com/forms/d/e/1FAIpQLScSL2J96rAt1J2FtcVM95scABAvDWT0YEhKRgjQxzILFFipJA/formResponse" target="_self" method="POST" id="mG61Hd">
+      <form style="position: absolute; margin: 0; top: 0; left: 0px; width: 100%; height: 100%" action="https://docs.google.com/forms/d/e/1FAIpQLScSL2J96rAt1J2FtcVM95scABAvDWT0YEhKRgjQxzILFFipJA/formResponse" target="_self" method="POST" id="mG61Hd">
         <input type="text" id="rsvp_name" name="entry.1983214217" />
         <input type="text" id="rsvp_mailing_address" name="entry.504893345" />
         <input type="text" id="rsvp_email_address" name="entry.1421326320" />
         <input type="text" id="rsvp_cell_phone" name="entry.1766671108" />
-        <input type="radio" id="rsvp_attending_yes" name="entry.191382300" value="Yes" />
-        <input type="radio" id="rsvp_attending_no" name="entry.191382300" value="No" />
-        <input type="radio" id="rsvp_golf_yes" name="entry.520039080" value="Yes" />
-        <input type="radio" id="rsvp_golf_no" name="entry.520039080" value="No" />
+        <input type="radio" class="radio_buttons" id="rsvp_attending_yes" name="entry.191382300" value="Yes" />
+        <input type="radio" class="radio_buttons" id="rsvp_attending_no" name="entry.191382300" value="No" />
+        <input type="radio" class="radio_buttons" id="rsvp_golf_yes" name="entry.520039080" value="Yes" />
+        <input type="radio" class="radio_buttons" id="rsvp_golf_no" name="entry.520039080" value="No" />
         <input type="text" id="rsvp_handicap" name="entry.1429840919" />
-        <input type="radio" id="rsvp_address_book_yes" name="entry.1514677278" value="Yes" />
-        <input type="radio" id="rsvp_address_book_no" name="entry.1514677278" value="No" />
-        <div id="rsvp_message">&nbsp;</div>
-        <input type="image" id="rsvp_submit" src="images/button.jpg" />
-        <div id="rsvp_submit_div">Submit</div>
-        <a href="photos.html" id="photos_link"></a>
+        <input type="radio" class="radio_buttons" id="rsvp_address_book_yes" name="entry.1514677278" value="Yes" />
+        <input type="radio" class="radio_buttons" id="rsvp_address_book_no" name="entry.1514677278" value="No" />
+        <input type="image" id="rsvp_submit" src="images/button_2022.jpg" />
       </form>
     </div>
   </body>
