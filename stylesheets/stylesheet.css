@@ -85,7 +85,7 @@ a.thumbnail {
 }
 #rsvp_name, #rsvp_mailing_address, #rsvp_email_address, #rsvp_cell_phone {
   position: absolute;
-  left: 29.2%;
+  left: 29.8%;
   width: 52.7%;
   height: 3.3%;
 }
@@ -122,7 +122,7 @@ a.thumbnail {
 #rsvp_handicap {
   position: absolute;
   top: 62.6%;
-  left: 29.2%;
+  left: 29.8%;
   height: 3.3%;
   width: 10.3%;
 }
