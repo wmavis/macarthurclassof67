@@ -102,9 +102,10 @@ a.thumbnail {
   top: 40.6%;
 }
 #rsvp_attending_yes, #rsvp_golf_yes, #rsvp_address_book_yes, #rsvp_attending_no, #rsvp_golf_no, #rsvp_address_book_no {
+  border: 0;
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 4%;
+  height: 4%;
 }
 #rsvp_attending_yes, #rsvp_golf_yes, #rsvp_address_book_yes {
   left: 29.2%;
