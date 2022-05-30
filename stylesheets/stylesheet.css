@@ -114,20 +114,20 @@ a.thumbnail {
   left: 37.8%;
 }
 #rsvp_attending_yes, #rsvp_attending_no {
-  top: 48.8%;
+  top: 48%;
 }
 #rsvp_golf_yes, #rsvp_golf_no {
-  top: 56%;
+  top: 55.2%;
 }
 #rsvp_handicap {
   position: absolute;
-  top: 62%;
-  left: 29.2%;
+  top: 62.6%;
+  left: 30.5%;
   height: 3.3%;
   width: 10.3%;
 }
 #rsvp_address_book_yes, #rsvp_address_book_no {
-  top: 70.2%;
+  top: 69.5%;
 }
 #rsvp_message {
   position: absolute;
